@@ -39,24 +39,19 @@ body .card {
   overflow: hidden;
 }
 
-body .card .hero {
-  background: -webkit-gradient(linear, left top, right top, from(#3204fdba), to(#9907facc)), url(https://picsum.photos/1280/853/?random=1) no-repeat top center;
-  background: linear-gradient(to right, #3204fdba, #9907facc), url(https://picsum.photos/1280/853/?random=1) no-repeat top center;
-}
-
-body .card .hero .hero-image {
+body .card .hero-image {
   width: 100%;
 }
 
-body .card .card-text {
+.card-text {
   margin: 40px 20px 0px 20px;
 }
 
-body .card .card-text .main-info {
+.card-text .main-info {
   margin-bottom: 15px;
 }
 
-body .card .card-text .main-info .header {
+.card-text .main-info .header {
   margin: auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -66,17 +61,17 @@ body .card .card-text .main-info .header {
   letter-spacing: 0.2px;
 }
 
-body .card .card-text .main-info .insights {
+.card-text .main-info .insights {
   color: #aa5cdb;
 }
 
-body .card .card-text .text-primary {
+.card-text .text-primary {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
 }
 
-body .card .card-text .text-primary .description {
+.card-text .text-primary .description {
   margin: 0;
   color: rgba(255, 255, 255, 0.6);
   font-size: 15px;
@@ -84,7 +79,7 @@ body .card .card-text .text-primary .description {
   letter-spacing: 0.2px;
 }
 
-body .card .card-text .stats .block-one, body .card .card-text .stats .block-two, body .card .card-text .stats .block-three {
+.card-text .stats .block-one, .card-text .stats .block-two, .card-text .stats .block-three {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -97,16 +92,16 @@ body .card .card-text .stats .block-one, body .card .card-text .stats .block-two
   text-transform: uppercase;
 }
 
-body .card .card-text .stats .block-one .number-one, body .card .card-text .stats .block-two .number-one, body .card .card-text .stats .block-three .number-one {
+.card-text .stats .block-one .number-one, .card-text .stats .block-two .number-one, .card-text .stats .block-three .number-one {
   text-transform: lowercase;
 }
 
-body .card .card-text .stats .number-one, body .card .card-text .stats .number-two, body .card .card-text .stats .number-three {
+.card-text .stats .number-one, .card-text .stats .number-two, .card-text .stats .number-three {
   margin: auto;
   font-size: 28px;
 }
 
-body .card .card-text .stats .text-one, body .card .card-text .stats .text-two, body .card .card-text .stats .text-three {
+.card-text .stats .text-one, .card-text .stats .text-two, .card-text .stats .text-three {
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
   color: rgba(255, 255, 255, 0.6);
@@ -114,7 +109,7 @@ body .card .card-text .stats .text-one, body .card .card-text .stats .text-two, 
   margin: auto;
 }
 
-body .footer {
+.footer {
   width: 100%;
   position: absolute;
   left: 50%;
@@ -123,7 +118,7 @@ body .footer {
   bottom: 5px;
 }
 
-body .footer .attribution {
+.footer .attribution {
   margin: auto;
   text-align: center;
   width: 90%;
@@ -133,7 +128,7 @@ body .footer .attribution {
   color: rgba(255, 255, 255, 0.6);
 }
 
-body .footer .attribution a {
+.footer .attribution a {
   color: white;
 }
 

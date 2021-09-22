@@ -24,11 +24,14 @@ body {
         overflow: hidden;
 
         .hero {
-            background: linear-gradient(to right,#3204fdba, #9907facc), url(https://picsum.photos/1280/853/?random=1) no-repeat top center;;
-            .hero-image {
-                width: 100%;            
+        // COLOR FOR THE HERO IMAGE
             }
-        }
+            .hero-image {
+                width: 100%;  
+            }
+         }
+            
+    }
 
         .card-text { 
             margin: 40px 20px 0px 20px;
@@ -84,7 +87,7 @@ body {
             }
 
         }  
-    }
+
 
     .footer {
         width: 100%;
@@ -105,7 +108,6 @@ body {
             }
         }
     }
-}
 
 
 
