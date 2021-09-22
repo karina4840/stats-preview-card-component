@@ -7,7 +7,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://karina4840.github.io/single-price-grid-component/"> Live site </a>
+    <a href="https://karina4840.github.io/stats-preview-card-component/> Live site </a>
     <span> | </span>
     <a href="https://www.frontendmentor.io/solutions/single-price-grid-component-html-sass-grid--jTZ-Rfej"> Solution </a>
     <span> | </span>
