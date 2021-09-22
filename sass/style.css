@@ -1,0 +1,145 @@
+body {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #090b1a;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .card {
+  width: 90%;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #1b1938;
+  color: white;
+  font-family: "Inter", sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+body .card .hero {
+  background: -webkit-gradient(linear, left top, right top, from(#3204fdba), to(#9907facc)), url(https://picsum.photos/1280/853/?random=1) no-repeat top center;
+  background: linear-gradient(to right, #3204fdba, #9907facc), url(https://picsum.photos/1280/853/?random=1) no-repeat top center;
+}
+
+body .card .hero .hero-image {
+  width: 100%;
+}
+
+body .card .card-text {
+  margin: 40px 20px 0px 20px;
+}
+
+body .card .card-text .main-info {
+  margin-bottom: 15px;
+}
+
+body .card .card-text .main-info .header {
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+body .card .card-text .main-info .insights {
+  color: #aa5cdb;
+}
+
+body .card .card-text .text-primary {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+body .card .card-text .text-primary .description {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 0.2px;
+}
+
+body .card .card-text .stats .block-one, body .card .card-text .stats .block-two, body .card .card-text .stats .block-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 30px;
+  line-height: 1.7;
+  text-transform: uppercase;
+}
+
+body .card .card-text .stats .block-one .number-one, body .card .card-text .stats .block-two .number-one, body .card .card-text .stats .block-three .number-one {
+  text-transform: lowercase;
+}
+
+body .card .card-text .stats .number-one, body .card .card-text .stats .number-two, body .card .card-text .stats .number-three {
+  margin: auto;
+  font-size: 28px;
+}
+
+body .card .card-text .stats .text-one, body .card .card-text .stats .text-two, body .card .card-text .stats .text-three {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.4px;
+  margin: auto;
+}
+
+body .footer {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 5px;
+}
+
+body .footer .attribution {
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+body .footer .attribution a {
+  color: white;
+}
+
+/*
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+*/
+/*# sourceMappingURL=style.css.map */

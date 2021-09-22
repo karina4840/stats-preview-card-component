@@ -1,0 +1,22 @@
+// ---- FONT VARIABLES ----
+$fontInter : 'Inter', sans-serif ;
+$fontLexend: 'Lexend Deca', sans-serif;
+
+$parSmall: 10px;
+$parMid: 15px;
+$parBig: 28px;
+$parHuge: 32px;
+
+// ---- COLOR VARIABLES ----
+// primary
+$veryDarkBlue: hsl(233, 47%, 7%); //(main background)
+$darkDesaturatedBlue: hsl(244, 38%, 16%); //(card background)
+$softViolet: hsl(277, 64%, 61%); //(accent)
+
+//secondary
+$white: hsl(0, 0%, 100%); //(main heading, stats)
+$slightlyTransparentWhite: hsla(0, 0%, 100%, 0.75); //(main paragraph)
+$slightlyTransparentWhite: hsla(0, 0%, 100%, 0.6); //(stat headings)
+
+// ---- IMAGES ----
+$bgMobile: url(https://github.com/karina4840/stats-preview-card-component/blob/main/images/image-header-mobile.jpg);

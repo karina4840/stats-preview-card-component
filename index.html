@@ -5,21 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type='text/css' href='sass/style.css'>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Stats preview card component</title>
 
 </head>
+
 <body>
   <div class="card">
-    <div class="picture">
-      <img src="" alt="">
+    <div class="hero">
+      <img class="hero-image" src="images/image-header-mobile.jpg" alt="picture of people laughing">
     </div>
-    <div class="main-info">
 
+    <div class="card-text">
+      <div class="main-info">
+        <h1 class="header">
+          Get <span class="insights">insights</span> that help your business grow.
+        </h1>
+      </div>
+  
+      <div class="text-primary">
+        <p class="description">
+          Discover the benefits of data analytics 
+          and make better decisions regarding revenue, 
+          customer experience, and overall efficiency.
+        </p>
+      </div>
+  
+      <div class="stats">
+        <div class="block-one">
+          <h1 class="number-one"> 10k+ </h1>
+          <p class="text-one"> companies </p>
+        </div>
+        <div class="block-two">
+          <h1 class="number-two"> 314 </h1>
+          <p class="text-two"> templates </p>
+        </div>
+        <div class="block-three">
+          <h1 class="number-three"> 12m+ </h1>
+          <p class="text-three"> queries </p>
+        </div>
+      </div>
     </div>
   </div>
-  
-  <footer>
+
+  <footer class="footer">
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://github.com/karina4840">Karina Ivanova</a>.
@@ -27,3 +65,6 @@
   </footer>
 </body>
 </html>
+
+
+     
